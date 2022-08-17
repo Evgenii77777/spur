@@ -1,0 +1,44 @@
+:root {
+  --main-text-color: palevioletred;
+  --main-bg-color: cornsilk;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  background: var(--main-bg-color);
+}
+
+.article {
+  max-width: 680px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.article__heading {
+  margin: 0 0 1.5rem;
+  color: var(--main-text-color);
+}
+
+.article__lead {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: serif;
+  text-transform: uppercase;
+}
+
+.article__figure {
+  margin-inline-start: 0;
+}
+
+.figure__caption {
+  margin: 8px 0 0;
+  font-style: italic;
+  font-family: serif;
+  text-align: center;
+}
